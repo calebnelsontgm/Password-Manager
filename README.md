@@ -6,7 +6,7 @@ A terminal-based password manager built in Python that uses real encryption to s
 
 - Master password authentication using bcrypt one-way hashing
 - Stored passwords encrypted with AES-128 via the Fernet symmetric encryption scheme
-- Encryption key derived from the master password using PBKDF2-HMAC-SHA256 — the key is never stored anywhere
+- Encryption key derived from the master password using PBKDF2-HMAC-SHA256
 - Secure password generator using Python's `secrets` module
 - JSON-based local storage
 
